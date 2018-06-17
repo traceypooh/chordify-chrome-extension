@@ -1,5 +1,8 @@
 # chordify-chrome-extension
-cosmetically adjusts JS/CSS chordify.net pages to have large video and be more like riffstation
+Cosmetically adjusts JS/CSS chordify.net pages to have large video and be more like riffstation
+
+<img src="screenshot.png"/>
+
 
 # installation:
 - open `terminal.app` on mac or similar
