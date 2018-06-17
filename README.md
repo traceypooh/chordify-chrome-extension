@@ -10,5 +10,6 @@ cosmetically adjusts JS/CSS chordify.net pages to have large video and be more l
   - click the `LOAD UNPACKED` link in top center
   - find this folder `chordify-chrome-extension`
   - hit `Select`
+  - <img src="chrome-extensions-screenshot.png"/>
 - If you notice any timing issues, you can trigger a rerun of the JS/CSS via a browser tab resize
 
