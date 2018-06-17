@@ -1,0 +1,13 @@
+{
+  "name": "chordify proportionizer",
+  "description" : "chordify alterations",
+  "manifest_version": 2,
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "elle-head.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://chordify.net/*"],
+      "js": ["jquery-1.10.2.min.js", "chordify.js" ]
+  }]
+}
