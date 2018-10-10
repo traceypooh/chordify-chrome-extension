@@ -39,6 +39,7 @@ $(window).on('load  resize  orientationchange', () => {
     // kick on controls, in case video has CC lyrics and may want to show it, etc.
     const con = () => (e  &&  e.attr('src')  &&  e.attr('src').match(/controls=0/) ?
       e.attr('src', e.attr('src').replace(/&controls=0/, '&controls=1')) : 'no-vid')
+      $('#ayads-style').remove() // kill that body margin top (and obnoxi top Ad)
     con()
     setTimeout(con, 3000)
 
