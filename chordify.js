@@ -13,6 +13,9 @@ $(window).on('load  resize  orientationchange', () => {
       'max-height': 0
     })
 
+    // dont interrupt songs
+    $('.service-value').remove()
+
     // declutter and get side video higher up
     $('#suggestions, #footer, .ios-banner').remove()
 
