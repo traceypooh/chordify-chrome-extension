@@ -17,16 +17,21 @@ $(window).on('load  resize  orientationchange', () => {
     $('.service-value').remove()
 
     // declutter and get side video higher up
-    $('#suggestions, #footer, .ios-banner').remove()
+    $('#suggestions, .ios-banner').remove()
 
-    // get main content to top
-    $('#content').css({'margin-top': 50})
-
+    // get main content to top - also allow to be superwide
+    $('#content').css({'margin-top': 50, 'max-width':2000})
     // shrink height of chords area
     $('.diagrams-guitar').css({'margin-bottom': 0, height: 300})
 
     // center main column
     $('#song').css('float', 'none')
+
+    // remove bottom huge overlay
+    $('footer').parent().remove()
+
+    // make top right flashing ads go south - and make animated preview full width
+    $('#aside').css({'max-width':0,'max-height':0,overflow:'hidden',position:'absolute',bottom:0,right:0,display:'block'})
 
     // move video to fill entire bottom of page and make bigga!
     const e = $('#youtube')
